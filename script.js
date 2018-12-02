@@ -22,5 +22,8 @@ function track (a,b,c){
     else if(a===b || b===c || a===c){
       display.innerHTML = "<p class ='display -text'>That is an <span class='type'>Isosceles</span>Triangle<p><span class='fill'>TWO</span>sides are equal";
     }
+    else{
+      display.innerHTML = "<p class='display -text'>That is a <span class='type'>Scalene</span>triangle<p><span class='not'>NO</span>sides are equal";
+    }
   }
 }
