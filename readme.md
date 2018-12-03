@@ -15,6 +15,16 @@ the first one will show not a triangle
 
 the second has a possibility to show Equilateral triangle
 
-the third one will show Isoscele triangle
+the third one will show Isosceles triangle
 
 the last one will show Scalene triangle
+
+TECHNOLOGIES USED
+
+html
+
+styles.css
+
+readme
+
+javascript
