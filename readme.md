@@ -9,7 +9,7 @@ click on the run button
 
 the name of the triangle will appear
 
-BDD
+#### BDD
 
 the first one will show not a triangle
 
@@ -19,7 +19,7 @@ the third one will show Isosceles triangle
 
 the last one will show Scalene triangle
 
-TECHNOLOGIES USED
+#### TECHNOLOGIES USED
 
 html
 
@@ -28,3 +28,6 @@ styles.css
 readme
 
 javascript
+
+#### contact information
+if there are bugs onmy work please you can communicate through my email:kelvinadeu25@gmail.communicate
