@@ -1,8 +1,8 @@
 
 function tracker(){
-  var a =parseInt(document.getElementbyId("one").value);
-  var b =parseInt(document.getElementbyId("two").value);
-  var c =parseInt(document.getEementbyId("three").value);
+  var a =parseInt(document.getElementById("one").value);
+  var b =parseInt(document.getElementById("two").value);
+  var c =parseInt(document.getElementById("three").value);
 
   var sides=[];
 
@@ -12,7 +12,7 @@ function tracker(){
 
 var results=document.querySelector("#final");
 
- if(a+b<=c || b+c<=a || a+c<=b){
+   if(a+b<=c || b+c<=a || a+c<=b){
   results.innerHTML="its not a triangle";
 }
 else if(a===b && b===c && c===a){
@@ -21,7 +21,7 @@ else if(a===b && b===c && c===a){
 else if(b===a || a===c  || c===a){
   results.innerHTML="its Isosceles triangle";
 }
-else if(a!===b && b!===c && c!===a){
+else if(a!==b && b!==c && c!==a){
   results.innerHTML="its Scalene triangle";
 }
 }
