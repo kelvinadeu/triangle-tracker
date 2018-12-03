@@ -1,42 +1,42 @@
-!<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Triangle-trackers</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>TRIANGLE-TRACKER</title>
   </head>
   <body>
-    <h1>Trianglet-trackers!!</h1>
-    <div class="form">
-      <h3>TRACK YOUR TRIANGLE</h3>
-      <p>
-        Enter length of three sides of triangle in cm and will tell you which type of triangle it is
-      </p>
-      <div class="input-field">
-        <label for="num1">side A</label>
-        <input class="number" type="text" id="num1" name="num1">
-      </div>
-      <div class="input-field">
-        <label for="num2">side B</label>
-        <input class="number" type="text" id="num2" name="num2">
-      </div>
-      <div class="input-field">
-        <label for="num3">side C</label>
-        <input class="number" type="text" id="num3" name="3">
-      </div>
-      <input class="button" type="button" value="find out" onclick="triangle()">
-      <input class="button" type="button" value="Reset" onclick="Reset()">
-      <p id="display">
-
-      </p>
+    <div id="contain">
+    <h1>triangle-tracker</h1>
+      <ol>
+        <li>Equilateral triangle</li>
+        <p>
+          both sides are equall
+        </p>
+        <li>Isosceles triangle</li>
+        <p>
+          two sides are equall
+        </p>
+        <li>Scalene triangle</li>
+        <p>
+          two sides are not equall
+        </p>
+      </ol>
     </div>
-    <div id="footer">
-    <p>
-      by .Adeu
-    </p>
-    </div>
+    <center>
+    <p id="one">side one</p>
+    <input type="number" name="a">
+    <p id="two">side two</p>
+    <input type="number" name="b">
+    <p id="three">side three</p>
+    <input type="number" name="c">
+  </center>
+  <p id="final"></p>
+  <button onClick="tracker()">Result</button>
+  <button onclick="refresh()">Reload</button>
   </body>
-  <script src="script.js" type="text/javascript">
+  <script src="script.js">
+
   </script>
 </html>
