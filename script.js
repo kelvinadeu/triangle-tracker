@@ -1,4 +1,3 @@
-
 function tracker(){
   var a =parseInt(document.getElementById("one").value);
   var b =parseInt(document.getElementById("two").value);
@@ -11,20 +10,19 @@ function tracker(){
   sides.push("c");
 
 var results=document.querySelector("#final");
-
-   if(a+b<=c || b+c<=a || a+c<=b){
-  results.innerHTML="its not a triangle";
-}
-else if(a===b && b===c && c===a){
+if(a===b && b===c) {
   results.innerHTML="its Equilateral triangle";
+
 }
 else if(b===a || a===c  || c===a){
   results.innerHTML="its Isosceles triangle";
 }
-else if(a!==b && b!==c && c!==a){
-  results.innerHTML="its Scalene triangle";
+  else if(a!==b && b!==c && c!==a) {
+   if(((a+b)<=c) || ((b+c)<=a) || ((a+c)<=b)){
+  results.innerHTML="its not a triangle";
+}
+else{
+  results.innerHTML="its scalene"
 }
 }
-function refresh(){
-  location.reload();
 }

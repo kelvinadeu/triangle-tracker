@@ -4,22 +4,22 @@ triangle tracker is a easy way of knowing triangles using mathematical numbers o
 ## author
 by.kelvin Adeu
 ### Setup instructions
-enter any two numbers in the spaces provided
+on GitHub,navigate to main page of the repository.
 
-click on the run button
+Under the repository name,click clone or download.
 
-the name of the triangle will appear
+In the clone with HTTPs section,click to copy the clone URL for the repository.
+
+Open terminal.
+
+Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL you coppied in step 2.
 
 #### BDD
-
-the first one will show not a triangle
-
-the second has a possibility to show Equilateral triangle
-
-the third one will show Isosceles triangle
-
-the last one will show Scalene triangle
-
+| Behaviour | input | Output  |
+| :-------- | :---- | :------ |
+| User hasn't filled  | ,,  | 
 #### TECHNOLOGIES USED
 
 html
