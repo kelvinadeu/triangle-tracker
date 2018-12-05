@@ -19,7 +19,10 @@ Type git clone, and then paste the URL you coppied in step 2.
 #### BDD
 | Behaviour | input | Output  |
 | :-------- | :---- | :------ |
-| User hasn't filled  | ,,  | 
+| User hasn't filled  | ,,  | nothing will show|
+|if fills |a==b & b==c|its shows Equilateral triangle|
+|if user fill|b==a or a==c or c==a|its shows Isosceles triangle|
+|if user fills|a+b<=c or b+c<=a|it shows no triangle
 #### TECHNOLOGIES USED
 
 html
