@@ -20,9 +20,10 @@ Type git clone, and then paste the URL you coppied in step 2.
 | Behaviour | input | Output  |
 | :-------- | :---- | :------ |
 | User hasn't filled  | ,,  | nothing will show|
-|if fills |a==b & b==c|its shows Equilateral triangle|
-|if user fill|b==a or a==c or c==a|its shows Isosceles triangle|
-|if user fills|a+b<=c or b+c<=a|it shows no triangle
+|if user fills |4,4,4|its shows Equilateral triangle|
+|if user fill|5,5,8|its shows Isosceles triangle|
+|if user fills|7,5,8|it shows scalene triangle|
+|if user fills|1,2,5|it shows no triangle
 #### TECHNOLOGIES USED
 
 html
@@ -34,7 +35,7 @@ readme
 javascript
 
 #### contact information
-if there are bugs onmy work please you can communicate through my email:kelvinadeu25@gmail.communicate
+if there are bugs on my work please you can communicate through my email:kelvinadeu25@gmail.communicate
 
 #### license and copyright information
 
