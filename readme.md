@@ -23,7 +23,7 @@ Type git clone, and then paste the URL you coppied in step 2.
 |if user fills |4,4,4|its shows Equilateral triangle|
 |if user fill|5,5,8|its shows Isosceles triangle|
 |if user fills|7,5,8|it shows scalene triangle|
-|if user fills|1,2,5|it shows no triangle
+|if user fills|3,2,5|it shows no triangle
 #### TECHNOLOGIES USED
 
 html
